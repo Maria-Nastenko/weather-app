@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather app</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="conteiner">
+      <section class="main">
+        <header>
+          <form class="signin-form">
+            <input
+              type="text"
+              placeholder="Search your city"
+              class="signin-form-field"
+              id="city-name-input"
+              autocomplete="off"
+            />
+            <a href="#" class="search-button">
+              <img src="./icons/search.svg" alt="" width="30" height="30" />
+            </a>
+            <a href="#" class="location-button">
+              <img src="./icons/location.svg" alt="" width="25" height="24" />
+            </a>
+          </form>
+        </header>
+        <div class="current-value">
+          <div class="current-value-city">
+            <p class="city" id="city-name">KYIV</p>
+          </div>
+          <div class="current-value-temp">
+            <p class="temp">20</p>
+            <div class="temperature-units"><button class="temperature-units-cel">℃</button> <button class="temperature-units-far">°F</button></div>
+            <img src="./icon_weather/sun_cloud.svg" alt="" />
+          </div>
+        </div>
+        <div class="current-value">
+          <div class="current-value-time">
+            <p class="time" id="current-time">12:40</p>
+            <p class="week-day" id="current-name-day">Sunday</p>
+            <p class="month-day" id="current-data">04.09.2022</p>
+          </div>
+          <div class="current-value-humidity">
+            <p class="secondary-value">Feels like: <span id="feels_like">19</span>℃</p>
+            <p class="secondary-value" >Humidity: <span id="humidity">95</span> %</p>
+            <p class="secondary-value">Wind: <span id="wind">21</span> km/h</p>
+          </div>
+        </div>
+        <div class="day-of-week">
+          <p class="date-day-of-week">Monday 05/09</p>
+          <div class="day-value">
+            <p class="temp-day-of-week">25℃</p>
+            <img
+              src="./icon_weather/sun_cloud.svg"
+              alt=""
+              width="50"
+              height="50"
+            />
+          </div>
+        </div>
+        <div class="day-of-week">
+          <p class="date-day-of-week">Monday 05/09</p>
+          <div class="day-value">
+            <p class="temp-day-of-week">25℃</p>
+            <img
+              src="./icon_weather/sun_cloud.svg"
+              alt=""
+              width="50"
+              height="50"
+            />
+          </div>
+        </div>
+        <div class="day-of-week">
+          <p class="date-day-of-week">Monday 05/09</p>
+          <div class="day-value">
+            <p class="temp-day-of-week">25℃</p>
+            <img
+              src="./icon_weather/sun_cloud.svg"
+              alt=""
+              width="50"
+              height="50"
+            />
+          </div>
+        </div>
+        <div class="day-of-week">
+          <p class="date-day-of-week">Monday 05/09</p>
+          <div class="day-value">
+            <p class="temp-day-of-week">25℃</p>
+            <img
+              src="./icon_weather/sun_cloud.svg"
+              alt=""
+              width="50"
+              height="50"
+            />
+          </div>
+        </div>
+        <div class="day-of-week">
+          <p class="date-day-of-week">Monday 05/09</p>
+          <div class="day-value">
+            <p class="temp-day-of-week">25℃</p>
+            <img
+              src="./icon_weather/sun_cloud.svg"
+              alt=""
+              width="50"
+              height="50"
+            />
+          </div>
+        </div>
+        <div class="day-of-week">
+          <p class="date-day-of-week">Monday 05/09</p>
+          <div class="day-value">
+            <p class="temp-day-of-week">25℃</p>
+            <img
+              src="./icon_weather/sun_cloud.svg"
+              alt=""
+              width="50"
+              height="50"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./js/script.js" type="module"></script>
+  </body>
+</html>
