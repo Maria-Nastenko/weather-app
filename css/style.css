@@ -125,7 +125,7 @@ color: rgb(161, 66, 11);
 .temperature-units-far,
 .temperature-units-cel {
     font-size: 16px;
-    color: #63fff5;
+    color: #e35416;
     border: none;
     cursor: pointer;
     background-color: rgb(260, 210, 210, 0.25);
