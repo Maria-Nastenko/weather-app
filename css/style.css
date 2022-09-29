@@ -12,7 +12,7 @@ body {
 .main {
    max-width: 60%;
    min-width: 40%;
-    margin: 60px auto;
+    margin: 60px auto 0;
     background-color: rgba(0, 0, 0, 0.4);;
     border: 1px solid rgb(82, 81, 81);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -190,5 +190,13 @@ color: rgb(161, 66, 11);
     justify-content: space-around;
     align-items: center;
 }
+footer {
+    margin-block: 10px;
+    text-align: center;
+}
 
+.github-link {
+    font-size: 16px;
+    color: #FF9263;
+}
 /* #e35416 */
